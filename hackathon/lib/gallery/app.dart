@@ -128,7 +128,7 @@ class _GalleryAppState extends State<GalleryApp> {
 
     return new MaterialApp(
       theme: _options.theme.data.copyWith(platform: _options.platform),
-      title: 'Flutter Gallery',
+      title: 'Home Page',
       color: Colors.grey,
       showPerformanceOverlay: _options.showPerformanceOverlay,
       checkerboardOffscreenLayers: _options.showOffscreenLayersCheckerboard,

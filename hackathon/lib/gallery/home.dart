@@ -71,7 +71,7 @@ class _CategoryItem extends StatelessWidget {
               child: new Icon(
                 category.icon,
                 size: 60.0,
-                color: isDark ? Colors.white : _kFlutterBlue,
+                color: isDark ? Colors.white : Colors.purple,
               ),
             ),
             const SizedBox(height: 10.0),
@@ -83,7 +83,7 @@ class _CategoryItem extends StatelessWidget {
                 textAlign: TextAlign.center,
                 style: theme.textTheme.subhead.copyWith(
                   fontFamily: 'GoogleSans',
-                  color: isDark ? Colors.white : _kFlutterBlue,
+                  color: isDark ? Colors.white : Colors.purple,
                 ),
               ),
             ),
@@ -220,7 +220,7 @@ class _DemoItem extends StatelessWidget {
               child: new Icon(
                 demo.icon,
                 size: 24.0,
-                color: isDark ? Colors.white : _kFlutterBlue,
+                color: isDark ? Colors.white : Colors.purple,
               ),
             ),
             new Expanded(

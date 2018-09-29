@@ -108,7 +108,7 @@ const SectionDetail _protectionImageDetail = SectionDetail(
 
 final List<Section> allSections = <Section>[
   const Section(
-    title: 'SUNGLASSES',
+    title: 'Profile',
     leftColor: _mediumPurple,
     rightColor: _mariner,
     backgroundAsset: 'products/sunnies.png',
@@ -123,7 +123,7 @@ final List<Section> allSections = <Section>[
     ],
   ),
   const Section(
-    title: 'FURNITURE',
+    title: 'Photos',
     leftColor: _tomato,
     rightColor: _mediumPurple,
     backgroundAsset: 'products/table.png',
@@ -138,7 +138,7 @@ final List<Section> allSections = <Section>[
     ],
   ),
   const Section(
-    title: 'JEWELRY',
+    title: 'Videos',
     leftColor: _mySin,
     rightColor: _tomato,
     backgroundAsset: 'products/earrings.png',
@@ -153,7 +153,22 @@ final List<Section> allSections = <Section>[
     ],
   ),
   const Section(
-    title: 'HEADWEAR',
+    title: 'Dietary',
+    leftColor: Colors.white,
+    rightColor: _tomato,
+    backgroundAsset: 'products/hat.png',
+    backgroundAssetPackage: _kGalleryAssetsPackage,
+    details: <SectionDetail>[
+      _protectionDetail,
+      _protectionImageDetail,
+      _protectionDetail,
+      _protectionDetail,
+      _protectionDetail,
+      _protectionDetail,
+    ],
+  ),
+  const Section(
+    title: 'Weekly Menu',
     leftColor: Colors.white,
     rightColor: _tomato,
     backgroundAsset: 'products/hat.png',

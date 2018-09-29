@@ -31,28 +31,28 @@ class GalleryDemoCategory {
   }
 }
 
-const GalleryDemoCategory _kDemos = GalleryDemoCategory._(
-  name: 'Studies',
-  icon: GalleryIcons.animation,
+GalleryDemoCategory _kDemos = GalleryDemoCategory._(
+  name: 'Users',
+  icon: GalleryIcons.account_box,
 );
 
-const GalleryDemoCategory _kStyle = GalleryDemoCategory._(
-  name: 'Style',
-  icon: GalleryIcons.custom_typography,
+GalleryDemoCategory _kStyle = GalleryDemoCategory._(
+  name: 'Activity',
+  icon: GalleryIcons.cupertino_progress,
 );
 
-const GalleryDemoCategory _kMaterialComponents = GalleryDemoCategory._(
-  name: 'Material',
-  icon: GalleryIcons.category_mdc,
+GalleryDemoCategory _kMaterialComponents = GalleryDemoCategory._(
+  name: 'Schedule',
+  icon: GalleryIcons.event,
 );
 
-const GalleryDemoCategory _kCupertinoComponents = GalleryDemoCategory._(
-  name: 'Cupertino',
+GalleryDemoCategory _kCupertinoComponents = GalleryDemoCategory._(
+  name: 'Messenger',
   icon: GalleryIcons.phone_iphone,
 );
 
-const GalleryDemoCategory _kMedia = GalleryDemoCategory._(
-  name: 'Media',
+GalleryDemoCategory _kMedia = GalleryDemoCategory._(
+  name: 'Workout Videos',
   icon: GalleryIcons.drive_video,
 );
 
@@ -86,30 +86,77 @@ List<GalleryDemo> _buildGalleryDemos() {
   final List<GalleryDemo> galleryDemos = <GalleryDemo>[
     // Demos
     new GalleryDemo(
-      title: 'Shrine',
-      subtitle: 'Basic shopping app',
-      icon: GalleryIcons.shrine,
-      category: _kDemos,
-      routeName: ShrineDemo.routeName,
-      buildRoute: (BuildContext context) => new ShrineDemo(),
-    ),
-    new GalleryDemo(
-      title: 'Contact profile',
-      subtitle: 'Address book entry with a flexible appbar',
+      title: 'Kanye West',
+      subtitle: 'Self help guru',
       icon: GalleryIcons.account_box,
       category: _kDemos,
-      routeName: ContactsDemo.routeName,
-      buildRoute: (BuildContext context) => new ContactsDemo(),
+      routeName: AnimationDemo.routeName,
+      buildRoute: (BuildContext context) => new AnimationDemo(),
     ),
     new GalleryDemo(
-      title: 'Animation',
-      subtitle: 'Section organizer',
-      icon: GalleryIcons.animation,
+      title: 'Ashley Jackson',
+      subtitle: 'Power Lifter',
+      icon: GalleryIcons.account_box,
+      category: _kDemos,
+      routeName: AnimationDemo.routeName,
+      buildRoute: (BuildContext context) => new AnimationDemo(),
+    ),
+    new GalleryDemo(
+      title: 'Katarina Blackwell',
+      subtitle: 'Tai Chi enthuisast',
+      icon: GalleryIcons.account_box,
       category: _kDemos,
       routeName: AnimationDemo.routeName,
       buildRoute: (BuildContext context) => const AnimationDemo(),
     ),
-
+    new GalleryDemo(
+      title: 'Ashley Parker Angel',
+      subtitle: 'Meditation',
+      icon: GalleryIcons.account_box,
+      category: _kDemos,
+      routeName: AnimationDemo.routeName,
+      buildRoute: (BuildContext context) => new AnimationDemo(),
+    ),
+    new GalleryDemo(
+      title: 'Lorraine Twohill',
+      subtitle: 'Competitive Swimmer',
+      icon: GalleryIcons.account_box,
+      category: _kDemos,
+      routeName: AnimationDemo.routeName,
+      buildRoute: (BuildContext context) => const AnimationDemo(),
+    ),
+    new GalleryDemo(
+      title: 'Joe',
+      subtitle: 'Average guy',
+      icon: GalleryIcons.account_box,
+      category: _kDemos,
+      routeName: AnimationDemo.routeName,
+      buildRoute: (BuildContext context) => const AnimationDemo(),
+    ),
+    new GalleryDemo(
+      title: 'Jane',
+      subtitle: 'Average girl',
+      icon: GalleryIcons.account_box,
+      category: _kDemos,
+      routeName: AnimationDemo.routeName,
+      buildRoute: (BuildContext context) => const AnimationDemo(),
+    ),
+    new GalleryDemo(
+      title: 'John Jacob',
+      subtitle: 'Beginner',
+      icon: GalleryIcons.account_box,
+      category: _kDemos,
+      routeName: AnimationDemo.routeName,
+      buildRoute: (BuildContext context) => const AnimationDemo(),
+    ),
+    new GalleryDemo(
+      title: 'Jinglehiemer Schmidt',
+      subtitle: 'Intermediate Weight lifter',
+      icon: GalleryIcons.account_box,
+      category: _kDemos,
+      routeName: AnimationDemo.routeName,
+      buildRoute: (BuildContext context) => const AnimationDemo(),
+    ),
     // Style
     new GalleryDemo(
       title: 'Colors',
@@ -484,9 +531,9 @@ List<GalleryDemo> _buildGalleryDemos() {
   assert(() {
     galleryDemos.insert(0,
       new GalleryDemo(
-        title: 'Pesto',
-        subtitle: 'Simple recipe browser',
-        icon: Icons.adjust,
+        title: 'Mike Jones',
+        subtitle: 'Yoga expert',
+        icon: Icons.account_box,
         category: _kDemos,
         routeName: PestoDemo.routeName,
         buildRoute: (BuildContext context) => const PestoDemo(),
