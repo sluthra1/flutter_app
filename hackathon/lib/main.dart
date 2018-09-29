@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
         // This is the theme of your application.
         //
         // Try running your application with "flutter run". You'll see the
-        // application has a blue toolbar. Then, without quitting the app, try
+        // applicatiocn has a blue toolbar. Then, without quitting the app, try
         // changing the primarySwatch below to Colors.green and then invoke
         // "hot reload" (press "r" in the console where you ran "flutter run",
         // or press Run > Flutter Hot Reload in IntelliJ). Notice that the
@@ -90,7 +90,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             new Text(
-              'You have clicked the button this many times:',
+              'You have TEST the button this many times:',
             ),
             new Text(
               '$_counter',
