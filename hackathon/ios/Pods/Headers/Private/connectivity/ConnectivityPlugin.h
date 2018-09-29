@@ -1,0 +1,1 @@
+../../../../../../../.pub-cache/hosted/pub.dartlang.org/connectivity-0.3.1/ios/Classes/ConnectivityPlugin.h
