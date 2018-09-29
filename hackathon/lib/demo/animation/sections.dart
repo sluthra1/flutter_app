@@ -59,50 +59,62 @@ class Section {
 // image SectionDetails in the allSections list.
 
 const SectionDetail _eyeglassesDetail = SectionDetail(
-  imageAsset: 'products/sunnies.png',
+  imageAsset: 'people/square/stella.png',
   imageAssetPackage: _kGalleryAssetsPackage,
-  title: 'Flutter enables interactive animation',
+  title: 'Stella is awesome be like stella',
   subtitle: '3K views - 5 days',
 );
 
 const SectionDetail _eyeglassesImageDetail = SectionDetail(
-  imageAsset: 'products/sunnies.png',
+  imageAsset: 'people/square/stella.png',
   imageAssetPackage: _kGalleryAssetsPackage,
 );
 
 const SectionDetail _seatingDetail = SectionDetail(
-  imageAsset: 'products/table.png',
+  imageAsset: 'places/india_chennai_highway.png',
   imageAssetPackage: _kGalleryAssetsPackage,
-  title: 'Flutter enables interactive animation',
+  title: 'Look ma no hands!',
   subtitle: '3K views - 5 days',
 );
 
 const SectionDetail _seatingImageDetail = SectionDetail(
-  imageAsset: 'products/table.png',
+  imageAsset: 'places/india_chennai_highway.png',
   imageAssetPackage: _kGalleryAssetsPackage,
 );
 
 const SectionDetail _decorationDetail = SectionDetail(
-  imageAsset: 'products/earrings.png',
+  imageAsset: 'places/india_tanjore_market_technology.png',
   imageAssetPackage: _kGalleryAssetsPackage,
-  title: 'Flutter enables interactive animation',
+  title: 'Moving photos, woah!',
   subtitle: '3K views - 5 days',
 );
 
 const SectionDetail _decorationImageDetail = SectionDetail(
-  imageAsset: 'products/earrings.png',
+  imageAsset: 'places/india_tanjore_market_technology.png',
   imageAssetPackage: _kGalleryAssetsPackage,
 );
 
 const SectionDetail _protectionDetail = SectionDetail(
-  imageAsset: 'products/hat.png',
+  imageAsset: 'food/icons/healthy.png',
   imageAssetPackage: _kGalleryAssetsPackage,
-  title: 'Flutter enables interactive animation',
+  title: 'Fish are friends not food',
   subtitle: '3K views - 5 days',
 );
 
 const SectionDetail _protectionImageDetail = SectionDetail(
-  imageAsset: 'products/hat.png',
+  imageAsset: 'food/icons/healthy.png',
+  imageAssetPackage: _kGalleryAssetsPackage,
+);
+
+const SectionDetail _protectionDetail2 = SectionDetail(
+  imageAsset: 'food/spinach_onion_salad.png',
+  imageAssetPackage: _kGalleryAssetsPackage,
+  title: 'An apple a day keeps the doctor away',
+  subtitle: '3K views - 5 days',
+);
+
+const SectionDetail _protectionImageDetail2 = SectionDetail(
+  imageAsset: 'food/spinach_onion_salad.png',
   imageAssetPackage: _kGalleryAssetsPackage,
 );
 
@@ -111,7 +123,7 @@ final List<Section> allSections = <Section>[
     title: 'Profile',
     leftColor: _mediumPurple,
     rightColor: _mariner,
-    backgroundAsset: 'products/sunnies.png',
+    backgroundAsset: 'people/square/stella.png',
     backgroundAssetPackage: _kGalleryAssetsPackage,
     details: <SectionDetail>[
       _eyeglassesDetail,
@@ -126,7 +138,7 @@ final List<Section> allSections = <Section>[
     title: 'Photos',
     leftColor: _tomato,
     rightColor: _mediumPurple,
-    backgroundAsset: 'products/table.png',
+    backgroundAsset: 'places/india_chennai_highway.png',
     backgroundAssetPackage: _kGalleryAssetsPackage,
     details: <SectionDetail>[
       _seatingDetail,
@@ -141,7 +153,7 @@ final List<Section> allSections = <Section>[
     title: 'Videos',
     leftColor: _mySin,
     rightColor: _tomato,
-    backgroundAsset: 'products/earrings.png',
+    backgroundAsset: 'places/india_tanjore_market_technology.png',
     backgroundAssetPackage: _kGalleryAssetsPackage,
     details: <SectionDetail>[
       _decorationDetail,
@@ -154,9 +166,9 @@ final List<Section> allSections = <Section>[
   ),
   const Section(
     title: 'Dietary',
-    leftColor: Colors.white,
+    leftColor: _mediumPurple,
     rightColor: _tomato,
-    backgroundAsset: 'products/hat.png',
+    backgroundAsset: 'food/icons/healthy.png',
     backgroundAssetPackage: _kGalleryAssetsPackage,
     details: <SectionDetail>[
       _protectionDetail,
@@ -169,17 +181,17 @@ final List<Section> allSections = <Section>[
   ),
   const Section(
     title: 'Weekly Menu',
-    leftColor: Colors.white,
-    rightColor: _tomato,
-    backgroundAsset: 'products/hat.png',
+    leftColor: _mySin,
+    rightColor: _mediumPurple,
+    backgroundAsset: 'food/spinach_onion_salad.png',
     backgroundAssetPackage: _kGalleryAssetsPackage,
     details: <SectionDetail>[
-      _protectionDetail,
-      _protectionImageDetail,
-      _protectionDetail,
-      _protectionDetail,
-      _protectionDetail,
-      _protectionDetail,
+      _protectionDetail2,
+      _protectionImageDetail2,
+      _protectionDetail2,
+      _protectionDetail2,
+      _protectionDetail2,
+      _protectionDetail2,
     ],
   ),
 ];

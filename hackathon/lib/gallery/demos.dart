@@ -535,8 +535,8 @@ List<GalleryDemo> _buildGalleryDemos() {
         subtitle: 'Yoga expert',
         icon: Icons.account_box,
         category: _kDemos,
-        routeName: PestoDemo.routeName,
-        buildRoute: (BuildContext context) => const PestoDemo(),
+        routeName: AnimationDemo.routeName,
+        buildRoute: (BuildContext context) => const AnimationDemo(),
       ),
     );
     return true;
