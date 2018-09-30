@@ -215,6 +215,30 @@ List<GalleryDemo> _buildGalleryDemos() {
       buildRoute: (BuildContext context) => new ColorsDemo(),
     ),
     // Material Components
+
+    
+  Widget widget() {
+  return Container(
+    margin: EdgeInsets.symmetric(horizontal: 16.0),
+    child: CalendarCarousel(
+      current: DateTime.now(),
+      onDayPressed: (DateTime date) {
+        this.setState(() => _currentDate = date);
+      },
+      thisMonthDayBorderColor: Colors.grey,
+      height: 420.0,
+      selectedDateTime: _currentDate,
+      daysHaveCircularBorder: false, /// null for not rendering any border, true for circular border, false for rectangular border
+//          weekendStyle: TextStyle(
+//            color: Colors.red,
+//          ),
+//          weekDays: null, /// for pass null when you do not want to render weekDays
+//          headerText: Container( /// Example for rendering custom header
+//            child: Text('Custom Header'),
+//          ),
+    ),
+  );
+}
     new GalleryDemo(
       title: 'Monday',
       subtitle: '',
